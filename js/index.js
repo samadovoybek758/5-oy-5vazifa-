@@ -127,6 +127,43 @@ btn.style.fontFamily = 'poppins';
 btn.style.border = 'none';
 btn.style.maxWidth = '200px';
 
+
+const teg_ch = document.getElementById('tag_chiziq');
+
+teg_ch.style.maxWidth = '800px';
+teg_ch.style.height = '2px';
+teg_ch.style.backgroundColor = '#3D3D3D';
+teg_ch.style.marginTop = '50px';
+teg_ch.style.marginBottom = '30px';
+
+
+
+
+const footer = document.getElementById('footer');
+
+footer.style.display = 'flex';
+footer.style.gap = '6px';
+footer.style.alignItems = 'center';
+
+
+const footer_p = document.getElementById('footer_p');
+
+footer_p.style.fontSize = '16px';
+footer_p.style.color = '#7F7F7F';
+footer_p.style.fontFamily = 'Poppins';
+
+
+const footer_span = document.getElementById('footer_span');
+
+footer_span.style.fontSize = '16px';
+footer_span.style.color = '#4B72C2';
+footer_span.style.fontFamily = 'Poppins';
+footer_span.style.textDecoration = 'none';
+
+
+
+
+
 const wrapper =document.getElementById('wrapper')
 
 function valitade() {
